@@ -1,0 +1,48 @@
+# Ignore CMake files
+*.cmake
+CMakeCache.txt
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Ignore build directories
+build/
+out/
+install/
+cmake-build/
+
+# Ignore Visual Studio files
+*.sdf
+*.opensdf
+*.suo
+*.ncbEditing.*.vs
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.user
+*.vspscc
+*.vssscc
+
+# Ignore Python files
+*.pyc
+*.pyo
+*.pycache
+*.egg-info
+*.mypy_cache
+*.rope
+*.tox
+*.coverage
+*.cache
+*.dist
+*.egg
+build/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+__pycache__/
+
+.vs/
+
+!out/build/x64-Debug/CMakeServiceApp/ServiceApp.exe
